@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    
+    
+}
+.main{
+    margin: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: ease-out 1s ;
+    
+    outline: none;
+    font-size: 2rem;
+
+}
+.red:hover{
+    color: rgba(17, 115, 228, 0.845);
+    background-color: rgb(220, 8, 188);
+    
+}
+.red:active{
+    bottom: 3px solid rgb(212, 34, 212);
+    background-color: rgb(35, 229, 220)
+
+}
+.doremi-{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+.osnova{
+    background-color: rgb(138, 43, 226);
+    width: 200px;
+    height: 20px;
+}
+
+.foot{
+    flex-direction: row;
+    display: flex;
+    
+    
+
+}
+
+.btn{
+    padding: 8px 10px;
+    width: 25px;
+    height: 200px; 
+    border: solid 1px #777777; 
+    color: #777; 
+    background:rgb(138, 43, 226);
+    transition: all .5s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;   
+    text-transform: uppercase;
+}
+.btn:hover{
+    height: 30px;
+    background-color: rgb(183, 222, 14);
+    transition: all .4s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+    
+}
