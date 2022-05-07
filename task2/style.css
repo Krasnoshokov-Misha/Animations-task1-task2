@@ -3,42 +3,39 @@ body{
     justify-content: center;
     align-items: center;
     height: 1000px;
+    
 }
 .time{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    
 }
 
 .strelka{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     position: relative;
     right: 50%;
+
+    
 }
-.chasov{
-    height: 200px;
-    width: 5px;
-    background-color: rgb(27, 0, 204);
-    position: fixed;
-    transform: rotate(180deg);
-    animation: spin 3600s linear infinite forwards;
-    animation-timing-function: steps(100);
-}
+
 .minute{
     height: 200px;
     width: 5px;
     background-color: black;
-    position: fixed;
+    position: relative;
     transform: rotate(180deg);
-    animation: spin 60s linear infinite forwards;
+    animation: spin 360s linear infinite forwards;
     animation-timing-function: steps(100);
 }
 .second{
     height: 280px;
     width: 2px;
-    position: fixed;
+    position: relative;
+    right: 3.3px;
     background-color: rgb(255, 0, 0);
     transform: rotate(180deg);
     animation: spin 40s linear infinite forwards;
