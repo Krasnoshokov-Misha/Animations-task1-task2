@@ -9,11 +9,14 @@ body{
 }
 .main{
     margin: 50px;
+    
+    flex-direction: column;
 }
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .red{
     width: 300px;
@@ -39,17 +42,38 @@ body{
     background-color: rgb(35, 229, 220)
 
 }
+
+p{
+    opacity: 0%;
+    color: rgb(93, 93, 93);
+    
+}
+
+.red:hover + p{
+    transition: ease-out 1s ;
+    color: rgb(247, 0, 255);
+    outline: none;
+    opacity: 100%
+    
+ }
+ .red:active + p{
+    transition: ease-out 1s ;
+    outline: none;
+    color: rgb(0, 195, 255);
+    opacity: 0%
+    
+ }
 .doremi-{
     display:block;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    
     
 }
 .osnova{
     background-color: rgb(138, 43, 226);
     width: 200px;
-    height: 20px;
+    height: 5px;
 }
 
 .foot{
@@ -67,7 +91,7 @@ body{
     border: solid 1px #777777; 
     color: #777; 
     background:rgb(138, 43, 226);
-    transition: all .5s linear;
+    transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;   
     text-transform: uppercase;
@@ -75,7 +99,7 @@ body{
 .btn:hover{
     height: 30px;
     background-color: rgb(183, 222, 14);
-    transition: all .4s linear;
+    transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear; 
     
